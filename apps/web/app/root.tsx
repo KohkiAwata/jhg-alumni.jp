@@ -88,7 +88,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Scripts />
 			</body>
 		</html>
-	)
+	);
 }
 
 export default function App() {
@@ -134,5 +134,5 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 				</pre>
 			)}
 		</main>
-	)
+	);
 }
