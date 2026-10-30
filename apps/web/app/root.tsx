@@ -47,6 +47,8 @@ export const links: Route.LinksFunction = () => [
 		href: "/atom.xml",
 		title: `${SITE_NAME} 新着情報`,
 	},
+	{ rel: "apple-touch-icon", href: "/touch-icon-square.png" },
+	{ rel: "apple-touch-icon", href: "/touch-icon-rectangle.png" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
